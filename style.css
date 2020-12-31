@@ -1,0 +1,365 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* code code code code starts here here here */
+
+
+
+.pic{
+  background-color: #BDAEBF;
+  width: 90%;
+  height: 275px;
+  border-color: #CABAC8;
+  margin-left: 5%;
+}
+
+.psignature{
+  flex: 2;
+  padding-left: 30px;
+  margin: auto;
+  margin-top: 10px;
+  align-items: flex-start;
+  opacity: 80%;
+  width: 80%;
+}
+
+.tag-line{
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  flex: 1;
+  border-style: double;
+  border-color: #605861;
+  border-width: thick;
+  border-collapse: collapse;
+  text-align: center;
+  max-width: 70%;
+  max-height: 70%;
+  margin: auto;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 728px){
+  .pic{
+    display: flex;
+    max-height: 350;
+    }
+  .tag-line{
+    margin: auto;
+  }
+  .psignature{
+    max-height: 225px;
+  }
+}
+
+#dob{
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  background-color: #F5FFFA;
+
+}
+
+  .dob{
+  font-size: 20px;
+  text-align: center;
+  color: #3E5932;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  }
+}
+
+@media (min-width: 728px){
+  .dob{
+    text-decoration: underline;
+    font-size: 40px;
+  }
+}
+body{
+  background-color: 	#F5FFFA;
+
+}
+
+
+#content1{
+  padding: 10px;
+  margin: 10px, 5px, 5px, 5px;
+}
+
+
+@media (min-width: 768px){
+  .container{
+    display: flex;
+    max-height: 300px;
+  }
+  .container2{
+    display: flex;
+    max-height:  300px;
+  }
+  .container3{
+    display: flex;
+    max-height:  300px;
+  }
+
+  .img2{
+    width: 80%;
+    padding-left: 10px;
+    }
+    .caption1{
+      text-align: center;
+      margin:auto;
+    }
+
+  }
+
+
+
+
+.container{
+  width: auto;
+  height: 505px;
+  margin: 10px 10px 10px 10px
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  background-color: #5D7360;
+}
+
+
+
+.box{
+  display: flex;
+  flex: 2;
+  background-color: #5D7360;
+  color: #BFBFB8;
+  font-size: 22px;
+  align-items: center;
+  padding: 3px;
+}
+
+
+.img{
+  display: flex;
+  flex: 1;
+  background-color: #735D57;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 30px 10px 20px 10px;
+
+}
+.caption1{
+  text-align: center;
+  color: #29332B;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container2{
+  width: auto;
+  height: 500px;
+  margin: 10px 5px 10px 10px
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  background-color: #735D57;
+}
+
+.box2{
+  display: flex;
+  flex: 2;
+  background-color: #735D57;
+  color: #BF9488;
+  font-size: 22px;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.img2{
+    display: flex;
+    flex: 1;
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    background: url("img/minotaur.jpg") no-repeat center;
+    background-size: contain;
+    background-color: #BDAEBF;
+
+  }
+  .caption2{
+    color: #BDAEBF;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+
+  .container3{
+    width: auto;
+    height: 500px;
+    background-color: #5D7360;
+  }
+  .box3{
+    display: flex;
+    flex: 2;
+    background-color: #5D7360;
+    color: #BFBFB8;
+    font-size: 22px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .img3{
+      display: flex;
+      flex: 1;
+      padding-top: 65%;
+      margin: auto;
+      background: url("img/dove.png") no-repeat center;
+      background-size: contain;
+      background-color: #BDAEBF;
+    }
+
+  .caption3{
+    color: #29332B;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+
+  .wiki-link{
+    height: 20px;
+    width: auto;
+    font-size: 15px;
+    text-align: center;
+    background-color: #9BBFA0;
+  }
+@media (min-width: 1440px){
+  .img3{
+      max-width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+  .container{
+    display: flex;
+    height: 300px;
+  }
+  .container2{
+    display: flex;
+    height:  300px;
+      }
+  .container3{
+      display: flex;
+      height:  300px;
+    }
+  .img3{
+      max-width: 100%;
+      padding-top: 20%;
+    }
+  .caption3{
+    color: #9BBFA0;
+  }
+}
